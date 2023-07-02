@@ -1,13 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>js click</title>
+    <style>
+        td {
+            border: 1px solid #CCC; 
+            cursor: pointer; 
+            width: 15px;
+            height: 15px;
+            text-align: center
+        }
+        #conclusion {
+            padding: 5px;
+            width: 50px;
+            height: 30px;
+            background-color: #95d5fa;
+            text-align: center
+        }
+        .list-img {
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
+    <div class="form">
+        <button id="myClickButton" style="background-color: white;">Ok</button>
+    </div>
+
+    <div class="element">a click</div>
+    <div class="element">b click</div>
+    <div class="element">c click</div>
+
+    <table id="message">
+        <tr>
+            <td>Текст</td>
+            <td>Текст</td>
+        </tr>
+        <tr>
+            <td>Текст</td>
+            <td>Текст</td>
+        </tr>
+    </table>
+
+    <table id="table">
+        <tr> <td>1</td> <td>2</td> <td>3</td> </tr>
+        <tr> <td>4</td> <td>5</td> <td>6</td> </tr>
+        <tr> <td>7</td> <td>8</td> <td>9</td> </tr>
+      </table>
+    <div id="conclusion"></div>
+
+    <ul id="list" class="list-img">
+        <li><img src="https://avatars.mds.yandex.net/i?id=c77c75eb478753f27aa28ff8acf9bdffe8449d05-7548535-images-thumbs&n=13" alt=""></li>
+        <li><img src="https://avatars.mds.yandex.net/i?id=ca9b83169dd1179771d23cfb9211a68ed9af543f-9181242-images-thumbs&n=13" alt=""></li>
+    </ul>
     
+    <h5 id="title">Click on me</h5>
+
     <script src="const.js"></script>
 </body>
 </html>
